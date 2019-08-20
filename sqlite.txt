@@ -1,0 +1,6 @@
+create table mensagens (
+nome varchar(80),
+cidade varchar(50),
+estado char(2),
+mensagem text
+);

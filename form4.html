@@ -1,0 +1,36 @@
+<HTML>
+<BODY>
+
+<p><strong>Inclusão de produtos</strong></p>
+<form method="POST" action="gerencia.php">
+<input type="hidden" name="operacao" value="inclusao">
+<p>
+Código do produto: <input type="text" name="codigo_produto" size="5"><br>
+Nome do produto: <input type="text" name="nome_produto" size="20"><br>
+Descrição do produto: <input type="text" name="descricao_produto" size="20">
+</p>
+<p><input type="submit" value="Incluir" name="incluir"></p>
+</form>
+
+
+<p><strong>Alteração de produtos</strong></p>
+<form method="POST" action="gerencia.php"><p>
+<input type="hidden" name="operacao" value="alteracao">
+Código do produto: <input type="text" name="codigo_produto" size="5"><br>
+Novo Nome do produto: <input type="text" name="nome_produto" size="20"><br>
+Nova Descrição do produto: <input type="text" name="descricao_produto" size="20">
+</p>
+ <p><input type="submit" value="Alterar" name="alterar"></p>
+</form>
+
+
+<p><strong>Exclusão de produtos</strong></p>
+<form method="POST" action="gerencia.php"><p>
+<input type="hidden" name="operacao" value="exclusao">
+Código do produto: <input type="text" name="codigo_produto" size="5"><br>
+  <input type="submit" value="Excluir" name="excluir"></p>
+</form>
+
+
+</BODY>
+</HTML>
