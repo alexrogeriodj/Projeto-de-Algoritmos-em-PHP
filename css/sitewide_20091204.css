@@ -1,0 +1,334 @@
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.7.0
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.7.0
+*/
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea,button{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+
+/*
+*  Canvas
+*/
+html
+{
+   background: #fff;
+}
+#sitecvs
+{
+   width: 970px;
+   margin-left: auto;
+   margin-right: auto;
+}
+#sitecvs .sitecvsbd
+{
+   float: left;
+   width: 970px;
+}
+
+/*
+*  Sitewide Header
+*/
+#sitehdr
+{
+   float: left;
+   width: 950px;
+   height: 100px;
+   padding: 10px;
+   margin-top: 20px;
+   color: #333;
+   background: #ccc;
+}
+
+/*
+*  Sitewide Footer
+*/
+#siteftr
+{
+   float: left;
+   width: 950px;
+   height: 100px;
+   padding: 10px;
+   margin-bottom: 20px;
+   color: #333;
+   background: #ccc;
+}
+
+/*
+*  Results Layout
+*/
+#layres
+{
+   float: left;
+   background: #e3e4e8;
+}
+#layres .layreshdr
+{
+   float: left;
+   width: 950px;
+   overflow: hidden;
+   border-left: 1px solid #d1d6dc;
+   border-right: 1px solid #d1d6dc;
+   border-top: 1px solid #fff;
+   padding: 10px 9px 0;
+}
+#layres .layresmaj
+{
+   float: left;
+   width: 968px;
+   border-left: 1px solid #d1d6dc;
+   border-right: 1px solid #d1d6dc;
+   background: #e3e4e6;
+}
+#layres .layrespri
+{
+   float: left;
+   display: inline;
+   width: 750px;
+   overflow: hidden;
+   margin: 10px 10px 0 9px;
+}
+#layres .layressec
+{
+   float: left;
+   display: inline;
+   width: 190px;
+   overflow: hidden;
+   margin: 10px 9px 0 0;
+}
+#layres .layrester
+{
+   clear: both;
+   float: left;
+   display: inline;
+   width: 950px;
+   overflow: hidden;
+   margin: 10px 9px;
+}
+#layres .layresftr1
+{
+   clear: both;
+   float: left;
+   width: 968px;
+   overflow: hidden;
+   border-left: 1px solid #d1d6dc;
+   border-right: 1px solid #d1d6dc;
+}
+#layres .layresftr2
+{
+   clear: both;
+   float: left;
+   width: 970px;
+   overflow: hidden;
+   border-bottom: 1px solid #fff;
+}
+
+/*
+*  Details Layout
+*/
+#laydtl
+{
+   float: left;
+   background: #e3e4e8;
+}
+#laydtl .laydtlhdr
+{
+   float: left;
+   width: 950px;
+   overflow: hidden;
+   border-left: 1px solid #d1d6dc;
+   border-right: 1px solid #d1d6dc;
+   border-top: 1px solid #fff;
+   padding: 10px 9px 0;
+}
+#laydtl .laydtlmaj
+{
+   float: left;
+   width: 950px;
+   border-left: 1px solid #d1d6dc;
+   border-right: 1px solid #d1d6dc;
+   padding: 10px 9px 0;
+}
+#laydtl .laydtlpri
+{
+   float: left;
+   display: inline;
+   width: 750px;
+   overflow: hidden;
+   margin-right: 10px;
+}
+#laydtl .laydtlldr
+{
+   float: left;
+   display: inline;
+   width: 750px;
+   overflow: hidden;
+}
+#laydtl .laydtllat
+{
+   float: left;
+   display: inline;
+   width: 710px;
+   overflow: hidden;
+   padding: 20px;
+   background: #ccc;
+   margin-top: 10px;
+}
+#laydtl .laydtllatpri
+{
+   float: left;
+   display: inline;
+   width: 310px;
+   overflow: hidden;
+   margin-right: 30px;
+}
+#laydtl .laydtllatsec
+{
+   float: left;
+   display: inline;
+   width: 370px;
+   overflow: hidden;
+}
+#laydtl .laydtlsec
+{
+   float: left;
+   display: inline;
+   width: 190px;
+   overflow: hidden;
+}
+#laydtl .laydtlter
+{
+   clear: both;
+   float: left;
+   display: inline;
+   width: 950px;
+   overflow: hidden;
+   background: #fff;
+   margin-top: 10px;
+}
+#laydtl .laydtlftr1
+{
+   clear: both;
+   float: left;
+   width: 968px;
+   overflow: hidden;
+   border-left: 1px solid #d1d6dc;
+   border-right: 1px solid #d1d6dc;
+   margin-top: 10px;
+}
+#laydtl .laydtlftr2
+{
+   clear: both;
+   float: left;
+   width: 970px;
+   overflow: hidden;
+   border-bottom: 1px solid #fff;
+}
+
+/*
+*  Sample Module
+*/
+.smpmod
+{
+   height: 100px;
+   color: #333;
+}
+
+/*
+*  Slideshow
+*/
+#picsld .sldtab
+{
+}
+#picsld.default
+{
+   width: 600px;
+   padding: 10px 10px 0;
+   background: #000;
+}  
+#picsld.default img
+{  
+   display: block;
+}  
+#picsld.default .sldpos
+{
+   margin: 0 43px 5px 0;
+   color: #999;
+   text-align: right;
+}
+#picsld.default .sldtab
+{
+   position: relative;
+   margin: 0 20px;
+}
+#picsld.default .sldtab .btnl
+{
+   position: absolute;
+   top: 3px;
+   left: 0;
+}
+#picsld.default .sldtab .btnr
+{
+   position: absolute;
+   top: 3px;
+   left: 545px;
+}
+#picsld.default .sldtab .vwpt
+{
+   position: relative;
+   width: 520px;
+   height: 71px;
+   margin-left: 20px;
+   overflow: hidden;
+}
+#picsld.default .sldtab table
+{
+   position: absolute;
+   left: 0;
+}
+#picsld.default .sldtab .item
+{
+   width: 55px;
+   padding: 5px;
+}
+#picsld.default .sldtab .selected
+{
+   width: 55px;
+   padding: 5px;
+   background: #f8d91c;
+}
+#picvwr.default
+{
+   width: 600px;
+   padding: 10px;
+   background: #000;
+}
+#picvwr.default img
+{
+   display: block;
+}
+#picvwr.default .vwrimg
+{
+   width: 600px;
+   overflow: hidden;
+}
+#picvwr.default cite
+{
+   display: block;
+   margin: 5px 0 0;
+   color: #999;
+   font: normal 77% verdana;
+   text-align: right;
+}
+#picvwr.default .vwrcap
+{
+   margin: 10px 10px 0;
+   color: #fff;
+}

@@ -1,0 +1,32 @@
+#testview1, #testview2
+{
+   width: 960px;
+   background: #c7d6e4;
+   font: bold 114% sans-serif;
+   text-align: left;
+   padding: 10px 5px;
+}
+#actions
+{
+   width: 970px;
+   background: #e0eaf3;
+   text-align: center;
+}
+#actions input
+{
+   margin: 10px 10px 10px 0;
+   padding: 0 5px;
+}
+#loc, #rmt, #pol
+{
+   color: #080;
+
+}
+#bad, #dat, #tmo
+{
+   color: #800;
+}
+#abt
+{
+   color: #880;
+}

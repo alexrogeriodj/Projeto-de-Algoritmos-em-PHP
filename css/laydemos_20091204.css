@@ -1,0 +1,87 @@
+/*
+*  Color Block
+*/
+#layresdemo #smpmodhdr
+{
+   padding: 10px;
+   width: 930px;
+   background: #99c0f7;
+}
+#layresdemo #smpmodpri
+{
+   padding: 10px;
+   width: 730px;
+   background: #99c0f7;
+}
+#layresdemo #smpmodsec
+{
+   padding: 10px;
+   width: 170px;
+   background: #99c0f7;
+}
+#layresdemo #smpmodter
+{
+   padding: 10px;
+   width: 930px;
+   background: #99c0f7;
+}
+#layresdemo #smpmodftr1
+{
+   padding: 10px 9px;
+   width: 950px;
+   background: #fafafa;
+}
+#layresdemo #smpmodftr2
+{
+   padding: 10px;
+   width: 950px;
+   background: #99c0f7;
+}
+#laydtldemo #smpmodhdr
+{
+   padding: 10px;
+   width: 930px;
+   background: #99c0f7;
+}
+#laydtldemo #smpmodldr
+{
+   padding: 10px;
+   width: 730px;
+   background: #99c0f7;
+}
+#laydtldemo #smpmodlatpri
+{
+   padding: 10px;
+   width: 350px;
+   background: #fafafa;
+}
+#laydtldemo #smpmodlatsec
+{
+   padding: 10px;
+   width: 350px;
+   background: #fafafa;
+}
+#laydtldemo #smpmodsec
+{
+   padding: 10px;
+   width: 170px;
+   background: #99c0f7;
+}
+#laydtldemo #smpmodter
+{
+   padding: 10px;
+   width: 930px;
+   background: #99c0f7;
+}
+#laydtldemo #smpmodftr1
+{
+   padding: 10px 9px;
+   width: 950px;
+   background: #fafafa;
+}
+#laydtldemo #smpmodftr2
+{
+   padding: 10px;
+   width: 950px;
+   background: #99c0f7;
+}

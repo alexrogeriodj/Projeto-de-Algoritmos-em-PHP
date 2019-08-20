@@ -1,0 +1,61 @@
+#launcher .sitecvsbd
+{
+   width: 970px;
+   border: 2px solid #ccc;
+   padding: 20px;
+   margin: 20px auto;
+   background: #e3e4e6;
+}
+#lchint
+{
+   height: 240px;
+   margin-bottom: 25px;
+   color: #333;
+}
+#lchint .ident
+{
+   margin: 0 0 0 200px;
+}
+#lchint a
+{
+   color: #333;
+   text-decoration: none;
+}
+#lchint h1
+{
+   margin-bottom: 2px;
+   font: bold 167% sans-serif;
+}
+#lchint h2
+{
+   margin-bottom: 25px;
+   font: bold 116% sans-serif;
+}
+#lchint cite
+{
+   font: normal 93% sans-serif;
+}
+#lchdem a
+{
+   text-decoration: underline;
+   color: #01a9a7;
+}
+#lchdem .demo h3
+{
+   margin: 20px 0 15px;
+   color: #333;
+   font: normal 131% sans-serif;
+}
+#lchdem .demo p
+{
+   margin-bottom: 15px;
+   color: #333;
+   font: normal 100% sans-serif;
+   text-align: justify;
+}
+#lchdem .examples li
+{
+   margin-left: 15px;
+   color: #333;
+   text-align: justify;
+}
