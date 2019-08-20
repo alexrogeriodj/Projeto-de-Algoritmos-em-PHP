@@ -1,0 +1,16 @@
+<?php
+/*
+*  Slideshow
+*
+*  This demo illustrates more complex modules that encapsulate HTML, CSS, and
+*  JavaScript. It incorporates several of the examples presented in Chapter 7.
+*/
+
+require_once($_SERVER["DOCUMENT_ROOT"]."/lgwebapp.inc");
+require_once($path_root."/slideshow/index_main.inc");
+
+$page = new SlideshowPage();
+$body = $page->create();
+
+print($page->get_page());
+?>
